@@ -1,9 +1,14 @@
-# Variabel untuk penanda agar struktur output script mudah dibaca
-start_script = "#=====> Script casting_tipe_data.py dimulai <=====#"
-end_script = "#=====> Script selesai dijalankan <=====#"
+# Modul os digunakan untuk berinteraksi dengan sistem operasi.
+import os
 
-print (start_script)
-#========================================#
+# Mengambil nama file dari variabel __file__
+nama_file = os.path.basename(__file__)
+
+# Untuk penanda agar struktur output skrip mudah dibaca
+print (f"==> Skrip {nama_file} dimulai <==")
+print ("----------------------------------------")
+#=======================================================#
+
 """
 Casting tipe data, merubah dari satu tipe data ke tipe data lain
 tipe data: str, int, float, bool
@@ -57,5 +62,6 @@ print ("Data:", data_integer, ",Bertipe:", type(data_integer))
 print ("Data:", data_string, ",Bertipe:", type(data_string))
 print ("Data:", data_float, ",Bertipe:", type(data_float))
 
-#========================================#
-print (end_script)
+#=======================================================#
+print ("----------------------------------------")
+print (f"==> Skrip {nama_file} selesai dijalankan <==")

@@ -1,9 +1,13 @@
-# Variabel untuk penanda agar struktur output script mudah dibaca
-start_script = "#=====> Script variabel.py dimulai <=====#"
-end_script = "#=====> Script selesai dijalankan <=====#"
+# Modul os digunakan untuk berinteraksi dengan sistem operasi.
+import os
 
-print (start_script)
-#========================================#
+# Mengambil nama file dari variabel __file__
+nama_file = os.path.basename(__file__)
+
+# Untuk penanda agar struktur output skrip mudah dibaca
+print (f"==> Skrip {nama_file} dimulai <==")
+print ("----------------------------------------")
+#=======================================================#
 
 # Variabel Python
 """ Variabel adalah sebuah tempat untuk menyimpan nilai data """
@@ -47,5 +51,7 @@ nama_variabel = 10 # menggunakan underscore/garis bawah (snake_case) <== Disaran
 namaVariabel = 3 # huruf kecil diawal, huruf kapital awal kata berikutnya. (camelCase)
 variabel3 = 5 # menggunakan kombinasi angka di akhir
 """
-#========================================#
-print (end_script)
+
+#=======================================================#
+print ("----------------------------------------")
+print (f"==> Skrip {nama_file} selesai dijalankan <==")

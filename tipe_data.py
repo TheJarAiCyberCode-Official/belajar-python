@@ -1,9 +1,13 @@
-# Variabel untuk penanda agar struktur output script mudah dibaca
-start_script = "#=====> Script tipe_data.py dimulai <=====#"
-end_script = "#=====> Script selesai dijalankan <=====#"
+# Modul os digunakan untuk berinteraksi dengan sistem operasi.
+import os
 
-print (start_script)
-#========================================#
+# Mengambil nama file dari variabel __file__
+nama_file = os.path.basename(__file__)
+
+# Untuk penanda agar struktur output skrip mudah dibaca
+print (f"==> Skrip {nama_file} dimulai <==")
+print ("----------------------------------------")
+#=======================================================#
 
 # tipe data: Kumpulan huruf atau karakter (string)
 data_string = "The JarAi Cyber Code"
@@ -31,5 +35,6 @@ data_complex = complex(10,5)
 print ("Data:", data_complex)
 print ("Bertipe:", type(data_complex))
 
-#========================================#
-print (end_script)
+#=======================================================#
+print ("----------------------------------------")
+print (f"==> Skrip {nama_file} selesai dijalankan <==")
