@@ -1,3 +1,9 @@
+"""
+Skrip ini dibuat untuk mendemonstrasikan bagaimana fungsi input() di Python
+selalu menghasilkan string (str) dan cara melakukan konversi tipe data
+(type casting) ke integer (int), float, dan boolean (bool).
+"""
+
 # Modul os digunakan untuk berinteraksi dengan sistem operasi.
 import os
 

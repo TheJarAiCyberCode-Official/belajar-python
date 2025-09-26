@@ -1,3 +1,8 @@
+"""
+Skrip ini mendemonstrasikan proses casting (konversi) antar
+tipe data dasar di Python: string, integer, float, dan boolean.
+"""
+
 # Modul os digunakan untuk berinteraksi dengan sistem operasi.
 import os
 
@@ -11,58 +16,56 @@ print (f"==> Skrip {nama_file} dimulai <==")
 print ("----------------------------------------")
 #=======================================================#
 
-"""
-Casting tipe data, merubah dari satu tipe data ke tipe data lain
-tipe data: str, int, float, bool
-"""
+# Casting tipe data, merubah dari satu tipe data ke tipe data lain
+# tipe data: str, int, float, bool
 
 ## STRING
 print ("----- STRING -----")
-data_string = "10"
-print ("Data:", data_string, ",Bertipe:", type(data_string))
+DATA_STRING = "10"
+print ("Data:", DATA_STRING, ",Bertipe:", type(DATA_STRING))
 
-data_float   = float(data_string) # string harus berupa angka
-data_integer = int(data_string) # string harus berupa angka
-data_boolean = bool(data_string) # jadi False jika string kosong
-print ("Data:", data_float, ",Bertipe:", type(data_float))
-print ("Data:", data_integer, ",Bertipe:", type(data_integer))
-print ("Data:", data_boolean, ",Bertipe:", type(data_boolean))
+DATA_FLOAT   = float(DATA_STRING) # string harus berupa angka
+DATA_INTEGER = int(DATA_STRING) # string harus berupa angka
+DATA_BOOLEAN = bool(DATA_STRING) # jadi False jika string kosong
+print ("Data:", DATA_FLOAT, ",Bertipe:", type(DATA_FLOAT))
+print ("Data:", DATA_INTEGER, ",Bertipe:", type(DATA_INTEGER))
+print ("Data:", DATA_BOOLEAN, ",Bertipe:", type(DATA_BOOLEAN))
 
 ## INTEGER
 print ("----- INTEGER -----")
-data_integer = 9
-print ("Data:", data_integer, ",Bertipe:", type(data_integer))
+DATA_INTEGER = 9
+print ("Data:", DATA_INTEGER, ",Bertipe:", type(DATA_INTEGER))
 
-data_float   = float(data_integer)
-data_string  = str(data_integer)
-data_boolean = bool(data_integer) # jadi False jika nilai int = 0
-print ("Data:", data_float, ",Bertipe:", type(data_float))
-print ("Data:", data_string, ",Bertipe:", type(data_string))
-print ("Data:", data_boolean, ",Bertipe:", type(data_boolean))
+DATA_FLOAT   = float(DATA_INTEGER)
+DATA_STRING  = str(DATA_INTEGER)
+DATA_BOOLEAN = bool(DATA_INTEGER) # jadi False jika nilai int = 0
+print ("Data:", DATA_FLOAT, ",Bertipe:", type(DATA_FLOAT))
+print ("Data:", DATA_STRING, ",Bertipe:", type(DATA_STRING))
+print ("Data:", DATA_BOOLEAN, ",Bertipe:", type(DATA_BOOLEAN))
 
 ## FLOAT
 print ("----- FLOAT -----")
-data_float = 9.5
-print ("Data:", data_float, ",Bertipe", type(data_float))
+DATA_FLOAT = 9.5
+print ("Data:", DATA_FLOAT, ",Bertipe", type(DATA_FLOAT))
 
-data_integer = int(data_float) # jadi dibulatkan ke bawah
-data_string  = str(data_float)
-data_boolean = bool(data_float) # jadi False jika nilai float = 0
-print ("Data:", data_integer, ",Bertipe:", type(data_integer))
-print ("Data:", data_string, ",Bertipe:", type(data_string))
-print ("Data:", data_boolean, ",Bertipe:", type(data_boolean))
+DATA_INTEGER = int(DATA_FLOAT) # jadi dibulatkan ke bawah
+DATA_STRING  = str(DATA_FLOAT)
+DATA_BOOLEAN = bool(DATA_FLOAT) # jadi False jika nilai float = 0
+print ("Data:", DATA_INTEGER, ",Bertipe:", type(DATA_INTEGER))
+print ("Data:", DATA_STRING, ",Bertipe:", type(DATA_STRING))
+print ("Data:", DATA_BOOLEAN, ",Bertipe:", type(DATA_BOOLEAN))
 
 ## BOOLEAN
 print ("----- BOOLEAN -----")
-data_boolean = True
-print ("Data:", data_boolean, ",Bertipe:", type(data_boolean))
+DATA_BOOLEAN = True
+print ("Data:", DATA_BOOLEAN, ",Bertipe:", type(DATA_BOOLEAN))
 
-data_integer = int(data_boolean)
-data_string  = str(data_boolean)
-data_float   = float(data_boolean)
-print ("Data:", data_integer, ",Bertipe:", type(data_integer))
-print ("Data:", data_string, ",Bertipe:", type(data_string))
-print ("Data:", data_float, ",Bertipe:", type(data_float))
+DATA_INTEGER = int(DATA_BOOLEAN)
+DATA_STRING  = str(DATA_BOOLEAN)
+DATA_FLOAT   = float(DATA_BOOLEAN)
+print ("Data:", DATA_INTEGER, ",Bertipe:", type(DATA_INTEGER))
+print ("Data:", DATA_STRING, ",Bertipe:", type(DATA_STRING))
+print ("Data:", DATA_FLOAT, ",Bertipe:", type(DATA_FLOAT))
 
 #=======================================================#
 print ("----------------------------------------")

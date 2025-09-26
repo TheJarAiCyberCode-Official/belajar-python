@@ -1,3 +1,8 @@
+"""
+Skrip ini mendemonstrasikan berbagai tipe data dasar di Python:
+string, integer, float, boolean, dan tipe data khusus complex.
+"""
+
 # Modul os digunakan untuk berinteraksi dengan sistem operasi.
 import os
 
@@ -12,24 +17,24 @@ print ("----------------------------------------")
 #=======================================================#
 
 # tipe data: Kumpulan huruf atau karakter (string)
-data_string = "The JarAi Cyber Code"
-print ("Data:", data_string)
-print ("Bertipe:", type(data_string))
+DATA_STRING = "The JarAi Cyber Code"
+print ("Data:", DATA_STRING)
+print ("Bertipe:", type(DATA_STRING))
 
 # tipe data: Angka bilangan bulat/satuan tanpa tanda koma . (integer)
-data_integer = 10
-print ("Data:", data_integer)
-print ("Bertipe:", type(data_integer))
+DATA_INTEGER = 10
+print ("Data:", DATA_INTEGER)
+print ("Bertipe:", type(DATA_INTEGER))
 
 # tipe data: Angka bilangan desimal dengan tanda koma . (float)
-data_float = 10.5
-print ("Data:", data_float)
-print ("Bertipe:", type(data_float))
+DATA_FLOAT = 10.5
+print ("Data:", DATA_FLOAT)
+print ("Bertipe:", type(DATA_FLOAT))
 
 # tipe data: Biner True/False (boolean)
-data_bool = True
-print ("Data:", data_bool)
-print ("Bertipe:", type(data_bool))
+DATA_BOOL = True
+print ("Data:", DATA_BOOL)
+print ("Bertipe:", type(DATA_BOOL))
 
 ## tipe data khusus
 # bilangan kompleks

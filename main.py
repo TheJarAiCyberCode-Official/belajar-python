@@ -1,3 +1,7 @@
+"""
+Titik masuk utama (main execution file) untuk proyek ini.
+Semua kode utama atau pemanggilan fungsi dimulai dari skrip ini.
+"""
 # Modul os digunakan untuk berinteraksi dengan sistem operasi.
 import os
 
