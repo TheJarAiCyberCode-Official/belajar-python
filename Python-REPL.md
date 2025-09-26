@@ -54,4 +54,8 @@ Cobalah bereksperimen sesuatu apa yang ingin kamu pelajari dalam kode Python dan
 seperti apa yang di sebutkan dalam buku [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/3e/chapter1.html) Oleh AI Sweigart:
 > KESALAHAN ITU WAJAR!
 >> Hal terbaik tentang komputer adalah ia menjalankan instruksi persis seperti yang Anda berikan. Ini juga hal terburuk tentang komputer. Komputer tidak bisa menggunakan akal sehat untuk memahami apa yang ingin Anda lakukan. Program akan macet jika berisi kode yang tidak dipahami komputer, yang akan menyebabkan Python menampilkan pesan kesalahan. Namun, pesan kesalahan tidak merusak komputer Anda, jadi jangan takut membuat kesalahan. Macet hanya berarti program berhenti berjalan secara tiba-tiba.
->>> Biasakan diri melihat pesan kesalahan, karena Anda akan terus-menerus menemuinya (meskipun Anda memiliki pengalaman pemrograman puluhan tahun). Pesan kesalahan seringkali samar dan tidak dimaksudkan untuk langsung dipahami oleh pemula. Jika Anda ingin tahu lebih banyak tentang suatu kesalahan, Anda dapat mencari teks pesan kesalahan yang tepat secara daring untuk informasi lebih lanjut. 
+>> 
+>> Biasakan diri melihat pesan kesalahan, karena Anda akan terus-menerus menemuinya (meskipun Anda memiliki pengalaman pemrograman puluhan tahun). Pesan kesalahan seringkali samar dan tidak dimaksudkan untuk langsung dipahami oleh pemula. Jika Anda ingin tahu lebih banyak tentang suatu kesalahan, Anda dapat mencari teks pesan kesalahan yang tepat secara daring untuk informasi lebih lanjut. 
+
+## Menggunakan sejarah
+Kamu juga perlu tahu bahwa Python juga menyimpan riwayat perintah? Kamu bisa berpindah antar perintah sebelumnya dengan menekan tombol panah atas dan bawah. Python menyimpan riwayat ini dalam sebuah berkas (pada sebagian besar OS biasanya di ~/.python_history), sehingga riwayat ini akan tetap ada bahkan di antara sesi. Kecuali, jika Kamu menghapus file ~/.python_history .
