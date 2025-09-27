@@ -1,6 +1,7 @@
 # Belajar-Python
 Repositori ini untuk belajar Python dari dasar untuk pemula,
 sekaligus merupakan dokumentasi proses pembelajaran Saya.
+
 ---
 
 # Python REPL
@@ -71,11 +72,10 @@ seperti apa yang di sebutkan dalam buku yang dibuat Oleh AI Sweigart:
 >> Jika Anda ingin tahu lebih banyak tentang suatu kesalahan,
 >> Anda dapat mencari teks pesan kesalahan yang tepat secara daring untuk informasi lebih lanjut. 
 
-## Menggunakan sejarah
-Kamu juga perlu tahu bahwa Python juga menyimpan riwayat perintah?
+## Menggunakan riwayat perintah (history)
+Kamu perlu tahu bahwa Python REPL juga menyimpan riwayat perintah?
 Kamu bisa berpindah antar perintah sebelumnya dengan menekan tombol panah atas dan bawah.
-Python menyimpan riwayat ini dalam sebuah berkas, pada sebagian besar OS biasanya di:
-+ `~/.python_history`
+Python menyimpan riwayat ini dalam sebuah berkas, pada sebagian besar OS biasanya di: `~/.python_history`
 sehingga riwayat ini akan tetap ada bahkan di antara sesi.
 Kecuali, jika Kamu menghapus file `~/.python_history`.
 
