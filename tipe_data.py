@@ -1,6 +1,6 @@
 """
 Skrip ini mendemonstrasikan berbagai tipe data dasar di Python:
-string, integer, float, boolean, dan tipe data khusus complex.
+string, integer, float, dan boolean.
 """
 
 # Modul os digunakan untuk berinteraksi dengan sistem operasi.
@@ -35,12 +35,6 @@ print ("Bertipe:", type(DATA_FLOAT))
 DATA_BOOL = True
 print ("Data:", DATA_BOOL)
 print ("Bertipe:", type(DATA_BOOL))
-
-## tipe data khusus
-# bilangan kompleks
-data_complex = complex(10,5)
-print ("Data:", data_complex)
-print ("Bertipe:", type(data_complex))
 
 #=======================================================#
 print ("----------------------------------------")

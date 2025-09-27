@@ -16,9 +16,6 @@ print (f"==> Skrip {nama_file} dimulai <==")
 print ("----------------------------------------")
 #=======================================================#
 
-# Casting tipe data, merubah dari satu tipe data ke tipe data lain
-# tipe data: str, int, float, bool
-
 ## STRING
 print ("----- STRING -----")
 DATA_STRING = "10"
@@ -26,7 +23,7 @@ print ("Data:", DATA_STRING, ",Bertipe:", type(DATA_STRING))
 
 DATA_FLOAT   = float(DATA_STRING) # string harus berupa angka
 DATA_INTEGER = int(DATA_STRING) # string harus berupa angka
-DATA_BOOLEAN = bool(DATA_STRING) # jadi False jika string kosong
+DATA_BOOLEAN = bool(DATA_STRING) # jadi False jika string kosong ""
 print ("Data:", DATA_FLOAT, ",Bertipe:", type(DATA_FLOAT))
 print ("Data:", DATA_INTEGER, ",Bertipe:", type(DATA_INTEGER))
 print ("Data:", DATA_BOOLEAN, ",Bertipe:", type(DATA_BOOLEAN))

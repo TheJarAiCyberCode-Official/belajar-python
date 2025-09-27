@@ -17,9 +17,7 @@ print (f"==> Skrip {nama_file} dimulai <==")
 print ("----------------------------------------")
 #=======================================================#
 
-# OPERASI ARITMATIKA
-print ("""Operasi Aritmatika ini dipakai untuk perhitungan matematika biasa
-""")
+# OPERATOR ARITMATIKA
 
 # Eksponen atau pangkat (**)
 A = 10
@@ -44,9 +42,9 @@ print ("Hasil Penjumlahan dari nilai",A,"+",B,"=",A + B)
 # Pengurangan (-)
 print ("Hasil Pengurangan dari nilai",A,"-",B,"=",A - B)
 
-# Prioritas operasi
 print () # Indentasi
 
+# Urutan prioritas operasi:
 #  1. ()
 #  2. Eksponen atau pangkat
 #  3. Perkalian, Pembagian, Pembagian dibulatkan, Modulus * / // %
@@ -59,10 +57,10 @@ Z = 4
 HASIL = X ** Y * Z + X / Y - Y % Z // X
 print (X,"**",Y,"*",Z,"+",X,"/",Y,"-",Y,"%",Z,"//",X,"=",HASIL)
 
-HASIL = X + Y * Z
+HASIL = X + Y * Z # Y * Z lebih didahulukan karena perkalian
 print (X,"+",Y,"*",Z,"=",HASIL)
 
-HASIL = (X + Y) * Z
+HASIL = (X + Y) * Z # X + Y lebih didahulukan karena menggunakan ()
 print ("(",X,"+",Y,") *",Z,"=",HASIL)
 #=======================================================#
 print ("----------------------------------------")
