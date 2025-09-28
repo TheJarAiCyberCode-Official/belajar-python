@@ -102,32 +102,33 @@ Untuk menggunakan variabel secara efektif, kita harus mengikuti aturan penamaan 
 + Hindari penggunaan kata kunci Python (misalnya, if, else, for) sebagai nama variabel.
 
 Berikut contoh nama variabel yang benar dan salah:
-    + Benar:
-    ```python
-    nama = "The JarAi Cyber Code"
-    _usia = 81
-    tinggi_badan = 175
-    asalNegara = "Indonesia"
-    ```
-    + Salah:
-    ```python
-    2nama = "Kode akan Error" #karena dimulai dengan angka
-    if = 10 # menggunakan kata kunci Python
-    nama-saya = "Udin" # Tanda hubung - tidak diperbolehkan
-    usia saya = 81 # Menggunakan spasi tidak diperbolehkan
-    ```
+
++ Benar:
+  ```python
+  nama = "The JarAi Cyber Code"
+  _usia = 81
+  tinggi_badan = 175
+  asalNegara = "Indonesia"
+  ```
++ Salah:
+  ```python
+  2nama = "Kode akan Error" #karena dimulai dengan angka
+  if = 10 # menggunakan kata kunci Python
+  nama-saya = "Udin" # Tanda hubung - tidak diperbolehkan
+  usia saya = 81 # Menggunakan spasi tidak diperbolehkan
+  ```
 
 + Peka terhadap huruf kecil dan besar
 Nama suatu variabel peka huruf kecil dan besar.
 ini akan membuat empat variabel yang berbeda. Contohnya:
-    ```python
-    NAMA = "Variabel nama kesatu"
-    nama = "Variabel nama kedua"
-    Nama = "Variabel nama ketiga"
-    naMa = "Variabel nama keempat"
+  ```python
+  NAMA = "Variabel nama kesatu"
+  nama = "Variabel nama kedua"
+  Nama = "Variabel nama ketiga"
+  naMa = "Variabel nama keempat"
 
-    print (NAMA)
-    print (nama)
-    print (Nama)
-    print (naMa)
-    ```
+  print (NAMA)
+  print (nama)
+  print (Nama)
+  print (naMa)
+  ```
