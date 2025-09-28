@@ -1,6 +1,17 @@
 """
-Titik masuk utama (main execution file) untuk proyek ini.
-Semua kode utama atau pemanggilan fungsi dimulai dari skrip ini.
+main.py
+
+Titik masuk utama (main execution file) untuk proyek belajar Python ini.
+File ini bertanggung jawab sebagai skrip yang pertama kali dijalankan saat proyek dijalankan.
+Semua kode utama, inisialisasi, atau pemanggilan fungsi dapat diletakkan di sini.
+
+Fitur:
+- Menampilkan nama file skrip yang sedang dijalankan.
+- Memberikan struktur penanda awal dan akhir eksekusi agar output mudah dibaca di terminal.
+- Tempat utama untuk memulai koding atau eksperimen Python dalam proyek ini.
+
+Penggunaan:
+Jalankan file ini secara langsung untuk memulai aplikasi atau pengujian awal.
 """
 # Modul os digunakan untuk berinteraksi dengan sistem operasi.
 import os
