@@ -1,0 +1,8 @@
+# Direktori Virtual Environment
+venv/
+env/
+.venv/
+
+# File Bytecode dan Artifact Python
+*.pyc
+__pycache__/
