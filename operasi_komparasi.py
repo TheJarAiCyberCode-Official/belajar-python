@@ -18,6 +18,7 @@ print ("----------------------------------------")
 # lebih dari (>)
 # kurang dari (<)
 # sama dengan (==)
+# Tidak sama dengan (!=)
 # lebih dari sama dengan (>=)
 # kurang dari sama dengan (<=)
 # adalah (is)
@@ -41,6 +42,12 @@ print () #indentasi
 print ("--- SAMA DENGAN (==) ---")
 hasil = a == b
 print ("Apakah nilai",a,"==",b,"Jawabanya:",hasil)
+
+print () #indentasi
+
+print ("--- TIDAK SAMA DENGAN (!=) ---")
+hasil = a != b
+print ("Apakah nilai",a,"!=",b,"Jawabanya:",hasil)
 
 print () #indentasi
 
