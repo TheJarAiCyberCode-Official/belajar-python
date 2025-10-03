@@ -1,7 +1,6 @@
 """
-halo_dunia.py
-
-Program belajar python pertama untuk menyapa dan menanyakan nama, dan usia.
+Skrip Python dasar ini menyapa pengguna, meminta input nama
+dan usia, lalu memberikan informasi dasar tentang input tersebut.
 """
 # Modul os digunakan untuk berinteraksi dengan sistem operasi.
 import os
