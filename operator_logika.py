@@ -16,7 +16,7 @@ print (f"==> Skrip {nama_file} dimulai <==")
 print ("----------------------------------------")
 #=======================================================#
 
-# Operator Logika atau Operator Boolean:
+# Operator Logika (Boolean):
 # and (DAN)
 # or (ATAU)
 # not (TIDAK)
